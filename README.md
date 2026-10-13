@@ -1,5 +1,16 @@
 # AC Metais Data Platform
 
+## Roadmap
+
+- [ ] **Phase 0 — Foundations:** local environment, Git, Docker, Terraform basics
+- [ ] **Phase 1 — Plant simulator:** Python generating orders, production orders and stage events
+- [ ] **Phase 2 — Batch lakehouse:** Data Lake + Databricks with bronze, silver and gold layers
+- [ ] **Phase 3 — PCP modeling:** dbt models for lead time, bottlenecks and data quality tests
+- [ ] **MVP:** first Power BI dashboard
+- [ ] **Phase 4 — Laser streaming:** real-time machine telemetry, OEE and scrap
+- [ ] **Phase 5 — Automation:** orchestration, CI/CD and full infrastructure as code
+- [ ] **Phase 6 — Finance & logistics:** margin per order and on-time delivery
+- [ ] **Phase 7 — Showcase:** final dashboards, documentation and demo video
 End-to-end data engineering platform on **Azure** for a laser cutting and metal fabrication plant: from simulated shop-floor events to production planning (PCP) insights.
 
 > 🚧 **Work in progress** — see the [Roadmap](#roadmap) for current status.
@@ -52,17 +63,6 @@ flowchart LR
 **Infrastructure & DevOps:** Terraform, Docker, GitHub Actions
 **Visualization:** Power BI
 
-## Roadmap
-
-- [ ] **Phase 0 — Foundations:** local environment, Git, Docker, Terraform basics
-- [ ] **Phase 1 — Plant simulator:** Python generating orders, production orders and stage events
-- [ ] **Phase 2 — Batch lakehouse:** Data Lake + Databricks with bronze, silver and gold layers
-- [ ] **Phase 3 — PCP modeling:** dbt models for lead time, bottlenecks and data quality tests
-- [ ] **MVP:** first Power BI dashboard
-- [ ] **Phase 4 — Laser streaming:** real-time machine telemetry, OEE and scrap
-- [ ] **Phase 5 — Automation:** orchestration, CI/CD and full infrastructure as code
-- [ ] **Phase 6 — Finance & logistics:** margin per order and on-time delivery
-- [ ] **Phase 7 — Showcase:** final dashboards, documentation and demo video
 
 ## About the data
 
